@@ -2,6 +2,9 @@
 
 Integrates the [Sa11y accessibility checker](https://sa11y.netlify.app/) into LocalGov Drupal.
 
+This module vendors Sa11y 4.0.0 CSS and JS assets locally under `assets/sa11y/`
+to avoid runtime CDN dependencies.
+
 ## Using
 Enbale the module like any other Drupal module.
 Set what roles can use the Sa11y widget via the `use_localgov_sa11y` permission.

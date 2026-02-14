@@ -8,7 +8,8 @@ localgov_sa11y:
 
 sa11y-files:
   js:
-    https://cdn.jsdelivr.net/combine/gh/ryersondmp/sa11y@4.0.0/dist/js/lang/en.umd.js,gh/ryersondmp/sa11y@4.0.0/dist/js/sa11y.umd.min.js: { type: external, minified: true}
+    assets/sa11y/js/lang/en.umd.js: { minified: true }
+    assets/sa11y/js/sa11y.umd.min.js: { minified: true }
   css:
     theme:
-      https://cdn.jsdelivr.net/gh/ryersondmp/sa11y@4.0.0/dist/css/sa11y.min.css: { type: external, minified: true}
+      assets/sa11y/css/sa11y.min.css: { minified: true }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+  colors="true"
+  failOnRisky="true"
+  failOnWarning="true"
+>
+  <testsuites>
+    <testsuite name="LocalGov Sa11y Test Suite">
+      <directory>tests/src/Unit</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>

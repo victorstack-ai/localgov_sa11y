@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ruleset name="localgov_sa11y">
+  <description>Scoped linting for localgov_sa11y tests.</description>
+  <rule ref="PSR12"/>
+  <file>tests/src/Unit/Sa11yLibrariesTest.php</file>
+</ruleset>
